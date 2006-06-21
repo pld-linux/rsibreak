@@ -2,7 +2,7 @@ Summary:	RSIBreak - a small utility which bothers you at certain intervals
 SUmmary(de):	RSIBreak - ein kleines Programm dass dich in bestimmten Zeitabständen nervt
 Summary(pl):	RSIBreak - ma³e narzêdzie, które bêdzie ciê wnerwiaæ w okre¶lonych odstêpach czasu
 Name:		rsibreak
-%define		_name	%(echo %{name}|%{__sed} s/r/R/)
+%define		_name	%(echo %{name}|sed s/r/R/)
 Version:	0.7.1
 Release:	1
 License:	GPL
