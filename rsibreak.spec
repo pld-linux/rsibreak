@@ -2,12 +2,11 @@ Summary:	RSIBreak - a small utility which bothers you at certain intervals
 SUmmary(de):	RSIBreak - ein kleines Programm dass dich in bestimmten Zeitabständen nervt
 Summary(pl):	RSIBreak - ma³e narzêdzie, które bêdzie ciê wnerwiaæ w okre¶lonych odstêpach czasu
 Name:		rsibreak
-%define		_name	%(echo %{name}|sed s/r/R/)
 Version:	0.7.1
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://www.rsibreak.org/images/e/e2/%{_name}-%{version}.tar.bz2
+Source0:	http://www.rsibreak.org/images/e/e2/Rsibreak-%{version}.tar.bz2
 # Source0-md5:	7846a2122805b6da3cc050d4664a52df
 URL:		http://www.kde-apps.org/content/show.php?content=39085
 BuildRequires:	autoconf
