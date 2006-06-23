@@ -1,6 +1,6 @@
 Summary:	RSIBreak - a small utility which bothers you at certain intervals
 SUmmary(de):	RSIBreak - ein kleines Programm dass dich in bestimmten Zeitabständen nervt
-Summary(pl):	RSIBreak - ma³e narzêdzie, które bêdzie ciê wnerwiaæ w okre¶lonych odstêpach czasu
+Summary(pl):	RSIBreak - ma³e narzêdzie przeszkadzaj±ce w okre¶lonych odstêpach czasu
 Name:		rsibreak
 Version:	0.7.1
 Release:	1
@@ -23,7 +23,7 @@ Das Ziel dieses Programms ist es dir bescheid zu sagen wann es Zeit
 wird eine kleine Pause von den Komputer einzulegen.
 
 %description -l pl
-Celem tego programu jest daæ Ci znaæ kiedy nale¿a³oby zrobiæ przerwe
+Celem tego programu jest dawaæ znaæ, kiedy nale¿a³oby zrobiæ przerwê
 od komputera.
 
 %prep
@@ -41,7 +41,7 @@ rm -rf $RPM_BUILD_ROOT
 	kde_htmldir=%{_kdedocdir} \
 	kde_libs_htmldir=%{_kdedocdir}
 
-rm -rf $RPM_BUILD_ROOT%{_datadir}/applnk/Utilities/%{name}.desktop
+rm -f $RPM_BUILD_ROOT%{_datadir}/applnk/Utilities/%{name}.desktop
 
 %find_lang %{name} --with-kde
 
@@ -53,8 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog NEWS TODO
 %attr(755,root,root) %{_bindir}/%{name}
 %{_desktopdir}/kde/%{name}.desktop
-%{_datadir}/apps/rsibreak/icons/hicolor/16x16/actions/%{name}?.png
-%{_datadir}/apps/rsibreak/icons/hicolor/32x32/actions/*.png
+%{_datadir}/apps/rsibreak
 %{_datadir}/autostart/rsibreak.desktop
 %{_iconsdir}/hicolor/128x128/apps/%{name}.png
 %{_iconsdir}/hicolor/16x16/apps/%{name}.png
