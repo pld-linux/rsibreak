@@ -1,6 +1,6 @@
 Summary:	RSIBreak - a small utility which bothers you at certain intervals
-Summary(de):	RSIBreak - ein kleines Programm dass dich in bestimmten Zeitabständen nervt
-Summary(pl):	RSIBreak - ma³e narzêdzie przeszkadzaj±ce w okre¶lonych odstêpach czasu
+Summary(de.UTF-8):   RSIBreak - ein kleines Programm dass dich in bestimmten ZeitabstÃ¤nden nervt
+Summary(pl.UTF-8):   RSIBreak - maÅ‚e narzÄ™dzie przeszkadzajÄ…ce w okreÅ›lonych odstÄ™pach czasu
 Name:		rsibreak
 Version:	0.7.1
 Release:	1
@@ -18,12 +18,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The aim of this utility is to let you know when it is time to have a
 break from your computer.
 
-%description -l de
+%description -l de.UTF-8
 Das Ziel dieses Programms ist es dir bescheid zu sagen wann es Zeit
 wird eine kleine Pause von den Komputer einzulegen.
 
-%description -l pl
-Celem tego programu jest dawaæ znaæ, kiedy nale¿a³oby zrobiæ przerwê
+%description -l pl.UTF-8
+Celem tego programu jest dawaÄ‡ znaÄ‡, kiedy naleÅ¼aÅ‚oby zrobiÄ‡ przerwÄ™
 od komputera.
 
 %prep
