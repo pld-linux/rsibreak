@@ -1,6 +1,6 @@
 Summary:	RSIBreak - a small utility which bothers you at certain intervals
-Summary(de.UTF-8):   RSIBreak - ein kleines Programm dass dich in bestimmten Zeitabständen nervt
-Summary(pl.UTF-8):   RSIBreak - małe narzędzie przeszkadzające w określonych odstępach czasu
+Summary(de.UTF-8):	RSIBreak - ein kleines Programm dass dich in bestimmten Zeitabständen nervt
+Summary(pl.UTF-8):	RSIBreak - małe narzędzie przeszkadzające w określonych odstępach czasu
 Name:		rsibreak
 Version:	0.7.1
 Release:	1
